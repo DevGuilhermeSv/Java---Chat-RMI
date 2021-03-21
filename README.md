@@ -1,2 +1,2 @@
-# chatrmi
-Chat em Java usando RMI (Remote Method Invocation) 
+# ChatRMI
+Chat Cliente/Servidor  em Java usando RMI (Remote Method Invocation) 
