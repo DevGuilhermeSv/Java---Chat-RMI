@@ -27,7 +27,6 @@ public class Cliente extends UnicastRemoteObject implements ClienteIF, Runnable 
 	public synchronized void recuperaMessage(String message) throws RemoteException {
 		chat.chatbox(message);
 	
-		//System.out.println(message);
 
 	}
 	
