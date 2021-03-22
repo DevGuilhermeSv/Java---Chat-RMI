@@ -11,7 +11,7 @@ public class Main {
 		Server server;
 		try {
 			server = new Server();
-			System.setProperty("java.rmi.server.hostname", "192.168.43.58");// meu ip
+			System.setProperty("java.rmi.server.hostname", "127.0.0.1");// meu ip
 			Registry registry = LocateRegistry.createRegistry(1099);
 			registry.rebind("servico", server);
 			
